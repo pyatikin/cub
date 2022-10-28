@@ -15,7 +15,7 @@ HEADER	=	cub3d.h
 
 CC		=	cc
 CFLAGS	=	-Wall -Wextra -Werror
-MFLAGS	=	-lmlx -lXext -lX11 -lm
+MFLAGS	=	-L. -lmlx -lXext -lX11 -lm
 
 LIBDIR	=	libft
 LIBFT	=	libft.a

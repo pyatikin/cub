@@ -67,7 +67,7 @@ static int	key_hook(int keycode, t_all *vars)
 {
 	float	radian;
 	int		move;
-
+	printf("key=%d", keycode);
 	move = 0;
 	if (keycode == 0xff1b)
 		ft_exit(vars, NULL);
